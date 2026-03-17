@@ -87,4 +87,39 @@ A physics-based PEM fuel cell model was used to:
 
 ---
 
-## 📁 Repository Structure
+## ⚙️ What This Repository Contains
+
+- `code/main.py` → core script for generating performance curves  
+- `code/settings.py` → parameters and operating conditions  
+- `figures/` → generated plots (polarization, power, efficiency)  
+- `report/` → full technical report  
+
+---
+
+## ⚡ Stack Specifications
+
+- Power: 32 kW  
+- Cells: ~200  
+- Cell Voltage: 0.65 V  
+- Current Density: 1.0 A/cm²  
+
+---
+
+## 📊 Results
+
+### Key Trends
+- Voltage decreases with increasing current density  
+- Power peaks at intermediate current density  
+- Efficiency drops at higher loads due to losses  
+
+### Key Values
+- Overall efficiency ≈ 52%  
+- Heat generation ≈ 29 kW  
+
+---
+
+## 🔁 Simulation Note
+
+AlphaPEM was used to generate polarization and efficiency trends.
+
+> The model is not fully optimized, but demonstrates how physics-based PEMFC simulations can be extended toward real-world applications.
